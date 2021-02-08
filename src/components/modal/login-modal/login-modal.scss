@@ -1,0 +1,34 @@
+.login-modal {
+    height: 575px;
+    width: 400px;
+    border-radius: 2.5px;
+    background-color: rgb(31, 100, 119);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+    box-sizing: border-box;
+
+    .close {
+        font-size: 1.5rem;
+        margin-right: 5px;
+        margin-bottom: 10px;
+        padding: 0;
+        color: white;
+        font-weight: 300;
+        border: none;
+        opacity: 1;
+        outline: none;
+        text-decoration: none;
+    }
+
+    .form {
+        position: absolute;
+        top:20%;
+        text-align: center;
+    }
+
+
+
+}

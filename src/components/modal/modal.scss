@@ -1,0 +1,51 @@
+.modal1 {
+    height: 850px;
+    width: 500px;
+    border-radius: 2.5px;
+    background-color: rgb(31, 100, 119);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+    box-sizing: border-box;
+
+    .close {
+        font-size: 1.5rem;
+        margin-right: 5px;
+        margin-bottom: 10px;
+        padding: 0;
+        color: white;
+        font-weight: 300;
+        border: none;
+        opacity: 1;
+        outline: none;
+        text-decoration: none;
+    }
+
+    .form {
+        position: absolute;
+        top: 10%;
+        text-align: center;
+    }
+
+    .modal-button {
+        position: absolute;
+        top: 92.5%;
+        left: 80%;
+        height: 30px;
+        width: 90px;
+        font-size: 75%;
+        transform: translate(-50%, -70%);
+        background-color: rgb(232, 145, 94);
+        border-color: rgba(232, 145, 94, 0.5);
+        outline: none;
+        text-decoration: none;
+        color: #fff;
+        font-weight: 600;
+        border-radius: 500px;
+        margin: 10px;
+        font-family: "Roboto";
+    }
+
+}

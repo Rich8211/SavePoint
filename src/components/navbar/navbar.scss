@@ -1,0 +1,79 @@
+.navbar-container {
+  top: 0;
+  width: 100%;
+  list-style: none;
+  margin: 0;
+  height: 75px;
+  display: flex;
+  flex-direction: row;
+  overflow: none;
+  position: relative;
+  padding-bottom: 10px;
+  font-family: "Roboto Condensed";
+  opacity: .6;
+
+  ul {
+    position: absolute;
+    top: 15%;
+  }
+
+  img {
+    height: 3rem;
+  }
+
+  li {
+    height: 2rem;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 16px;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .navbar-left {
+    left: 0%;
+  }
+
+
+
+  .navbar-right {
+
+    right: 5%;
+    top: 35%;
+
+    .sign-out {
+      color: white;
+      text-decoration: none;
+      background-color: Transparent;
+      background-repeat: no-repeat;
+      border: none;
+      cursor: pointer;
+      overflow: hidden;
+      outline: none;
+      font-family: "Roboto Condensed";
+      font-weight: 600;
+    }
+
+    .my-facebook-button-class {
+      color: #ffffff;
+      background-color: #3b5998;
+      padding: 4px 12px;
+      font-family: "Roboto";
+      cursor: pointer;
+      transition: background-color 0.3s, border-color 0.3s;
+      background-color: #4c69ba;
+      border: calc(.06887vw + .67769px) solid #4c69ba;
+      font-size: 0.8rem;
+      font-weight: 400;
+    }
+  }
+}

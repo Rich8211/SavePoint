@@ -1,0 +1,169 @@
+.card {
+    top: 100px;
+    text-align: center;
+    height: 450px;
+    width: 320px;
+    background-color: #fff;
+    border-radius: 5px;
+    font-family: "Roboto", sans-serif;
+    color: #707070;
+    position: relative;
+    box-sizing: border-box;
+    // background: linear-gradient(to bottom, #267fa8 75%, #419a9f);
+    font-weight: 400;
+    margin: 8px 15px;
+
+    .heading {
+        height: 80px;
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        z-index: 10;
+        color: #fff;
+        background-color: #267fa8;
+
+        // background: linear-gradient(to top, rgb(255, 255, 255, 0.0), rgb(255, 255, 255, 0.5));
+        padding-bottom: 40px;
+        z-index: 9;
+
+        .title {
+            margin-top: 0;
+            padding-top: 10px;
+            padding-bottom: 0;
+            font-size: 1.2rem;
+            font-family: "Titillium Web";
+            font-weight: 600;
+        }
+
+        .city {
+            font-size: 0.8rem;
+            padding: 0;
+            margin-bottom: 0;
+            padding-top: 10px;
+            font-weight: 400;
+            margin-top: 0;
+            color: rgb(255, 255, 255, 0.8);
+        }
+    }
+
+    .message-bubble {
+        right: -10px;
+        padding: 4px;
+        font-size: 0.7rem;
+        border-radius: 500px;
+        top: -11px;
+        position: absolute;
+        background-color: #DB7182;
+        font-weight: 600;
+    }
+
+    .price {
+        position: absolute;
+        right: 40%;
+        top: 95%;
+        z-index: 10;
+        height: 22px;
+        width: 20%;
+        padding: 2px 5px 0 5px;
+        border-radius: 5px;
+        background-color: #36454f;
+        font-size: 0.9rem;
+        overflow: hidden;
+    }
+
+    .matching-pic {
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        top: 40px;
+        width: 100%;
+        height: 35%;
+        margin-top: -10px;
+        z-index: 8;
+    }
+
+    .check-in-and-checkout {
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        left: 20px;
+        right: 0;
+        top: 160px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+        .check-in {
+            width: 50%;
+
+            .check-in-text {
+                text-align: left;
+
+                p {
+                    margin-top: 8px;
+                }
+
+
+            }
+        }
+
+        .check-out {
+            .check-out-text {
+                p {
+                    margin: 8px 0;
+                }
+            }
+        }
+    }
+
+    .hotel-info {
+        text-align: left;
+        position: absolute;
+        top: 260px;
+        left: 20px;
+        font-weight: 600;
+
+        p {
+            margin: 4px 0;
+        }
+    }
+
+    .hotel-address {
+        position: absolute;
+        top: 290px;
+        left: 20px;
+    }
+
+    .roommate-num {
+        position: absolute;
+        top: 100px;
+        left: 25%;
+    }
+
+    .matching-in-progress {
+        color:white;
+        position: absolute;
+        top:80%;
+        left:10%;
+        border-radius: 10px;
+        width: 80%;
+        height: 65px;
+        background-color: #267fa8;
+        
+        h4 {
+            font-size: 0.8rem;
+        }
+    }
+
+    footer {
+        position: absolute;
+        top: 95%;
+        font-size: 9px;
+        left: 9px;
+        color: #d3d3d3;
+    }
+}

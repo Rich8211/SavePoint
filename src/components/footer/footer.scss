@@ -1,0 +1,35 @@
+.footer-container {
+    height: 100px;
+    width: 100%;
+    opacity: 0.6;
+    position: absolute;
+    top: 100%;
+    text-align: center;
+
+    .links {
+        // position: absolute;
+        // transform: translate(-50%, 0%);
+        margin: 15px auto;
+
+        font-size: 0.85rem;
+
+        a {
+            color: #fff;
+
+        }
+
+        * {
+            padding: 0 5px;
+        }
+    }
+
+    .copy-right {
+        font-size: 0.7rem;
+
+        margin: auto;
+        // top: 50%;
+        // left: 50%;
+        // transform: translate(-50%, 0%);
+    }
+
+}

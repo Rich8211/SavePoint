@@ -1,0 +1,80 @@
+.mode {
+  height: 575px;
+  width: 400px;
+  border-radius: 2.5px;
+  background-color: rgb(31, 100, 119);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  box-sizing: border-box;
+
+  opacity: 0.9;
+
+  h1 {
+    margin: 20px auto;
+    text-align: center;
+    font-size: 0.75rem;
+    opacity: 0.8;
+  }
+
+  img {
+    width: 30%;
+    border-radius: 50%;
+    display: block;
+    margin: 10px auto 0 auto;
+  }
+
+  .close {
+    font-size: 1.5rem;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    padding: 0;
+    color: white;
+    font-weight: 300;
+    border: none;
+    opacity: 1;
+    outline: none;
+    text-decoration: none;
+  }
+
+  .form {
+    position: relative;
+    text-align: center;
+
+    input {
+      margin: 2px;
+      border: none;
+      outline: none;
+      border-radius: 2.5px;
+      width: 75%;
+      height: 1.5rem;
+    }
+
+    label {
+      text-align: left;
+      margin: auto;
+      width: 75%;
+      opacity: 0.8;
+    }
+
+
+
+
+    .top {
+      font-size: 0.8rem;
+    }
+
+    .bottom {
+      font-size: 0.65rem;
+      font-style: italic;
+    }
+  
+
+  .bio {
+    width: 75%;
+    border-radius: 2.5px;
+  }
+}
+}

@@ -1,0 +1,91 @@
+.party-form {
+  font-family: "Roboto";
+  position: relative;
+
+  .heading {
+    text-align: center;
+
+    h1 {
+      font-family: "Titillium Web";
+      font-size: 1.1rem;
+      font-weight: 300;
+      font-style: italic;
+      text-decoration: underline;
+    }
+
+    p {
+      font-size: 0.7rem;
+    }
+  }
+
+  .form-inputs {
+
+    opacity: 0.8;
+    position: absolute;
+    width: 100%;
+    left: 80%;
+    transform: translate(-50%, 0%);
+
+
+    label {
+      font-size: 0.5rem;
+      width: 100%;
+      display: block;
+      text-align: left;
+    }
+
+    input {
+      width: 30%;
+      border-radius: 5px;
+      padding-top: 0;
+      border-top: 0;
+      margin-top: 0;
+      margin-bottom: 10px;
+    }
+
+    .dist-cost-max {
+      display: flex;
+      flex-direction: row;
+      width: 30%;
+
+      label {
+        width: 100%;
+      }
+
+      input {
+        width: 80%;
+      }
+
+      select {
+        width: 60%;
+      }
+    }
+
+    .name-address {
+      input {
+        width: 20%;
+      }
+
+      .city-state-zip {
+        display: flex;
+        flex-direction: row;
+        width: 20%;
+
+        label {
+          width: 100%;
+        }
+
+        input {
+          width: 100%;
+        }
+      }
+
+    }
+
+    .party-discription {
+      input {
+        height: 100px
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+input {
+    margin: 2px;
+    border: none;
+    outline: none;
+    border-radius: 2.5px;
+    width: 75%;
+    height: 1.5rem;
+}
+
+label {
+    text-align: left;
+    margin: auto;
+    width: 75%;
+    opacity: 0.8;
+}
+
+textarea {
+    width: 75%;
+    border-radius: 2.5px;
+}
+
+.top {
+    font-size: 0.8rem;
+}
+
+.bottom {
+    font-size: 0.65rem;
+    font-style: italic;
+}

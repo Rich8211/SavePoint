@@ -1,0 +1,54 @@
+.featured-card {
+    height: 355px;
+    width: 305px;
+    border-radius: 7.5px;
+    margin: 8px 15px;
+    position: relative;
+    background-color:rgb(23,85,129);
+    box-shadow: 3px black;
+
+    img {
+        width: 100%;
+        border-radius: 7.5px 7.5px 0 0;
+        height: 47.5%;
+    }
+
+    // .con-pic {
+    //     top: 0;
+    //     height: 40%;
+    //     background-image: url("../../assets/boston-con.jpg");
+    //     background-size: contain;
+    //     background-repeat: no-repeat;
+    //     background-position: center;
+    // }
+
+    .con-title {
+        height: 12.5%;
+        background-color: rgb(26,73,116);
+        position: relative;
+
+        h4 {
+            position: absolute;
+            top:50%;
+            transform: translate(0, -50%);
+            font-size: 1.2rem;
+        }
+
+        background-color: rgb;
+    }
+
+    .con-info {
+
+        // background-color: #419a9f;
+
+        h5 {
+            font-size: 0.4rem;
+        }
+
+        p {
+            font-size:0.8rem;
+            margin:10px;
+        }
+    }
+
+}
